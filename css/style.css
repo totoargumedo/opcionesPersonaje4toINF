@@ -52,7 +52,7 @@ body{
 }
 
 .raceCard{
-    height: 100%;
+    height: auto;
     width: 80%;
     background-color: rgba(0,0,0,.3);
     display: flex;
@@ -87,7 +87,7 @@ body{
         137,
         107, .8);
     border-radius: inherit;
-    height: 30%;
+    height: auto;
 }
 
 .raceBenefitsItem{
@@ -124,7 +124,7 @@ body{
 }
 
 .classCard {
-    height: 80%;
+    height: auto;
     width: 80%;
     background-color: rgba(0, 0, 0, .3);
     display: flex;
@@ -151,7 +151,7 @@ body{
     padding: 5px 10px;
     background-color: rgba(57, 101, 167, 0.8);
     border-radius: inherit;
-    height: 50%;
+    height: auto;
 }
 
 .classBenefits img {
@@ -174,7 +174,7 @@ body{
 }
 
 .itemCard {
-    height: 80%;
+    height: auto;
     width: 80%;
     background-color: rgba(0, 0, 0, .3);
     display: flex;
@@ -200,8 +200,8 @@ body{
     padding: 5px 10px;
     background-color: rgba(57, 101, 167, 0.8);
     border-bottom-right-radius: inherit;
-        border-bottom-left-radius: inherit;
-    height: 50%;
+    border-bottom-left-radius: inherit;
+    height: auto;
 }
 
 .itemBenefits img {
