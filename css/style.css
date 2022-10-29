@@ -15,6 +15,7 @@ body{
     font-size: 1.5rem;
     background-color: #312c2cc4;
     color:white;
+    position: sticky;
 }
 
 .welcome img{
@@ -26,8 +27,9 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    height: 90vh;
     width: 100%;
+    padding: 30px 0;
     /* display: flex;
     flex-flow: column nowrap;
     align-items: center;
@@ -38,10 +40,10 @@ body{
 
 .raceGallery{
     /* background-color: #A1896B; */
-    height: 80vh;
+    height: 70vh;
     width: 80vw;
     padding: 5%;
-    margin: 30px auto;
+    margin: 0 auto;
     display: flex;
         flex-flow: column wrap;
         align-items: center;
@@ -188,7 +190,7 @@ body{
     font-family: 'MedievalSharp', cursive;
     font-size: 1.5rem;
     color: white;
-    background-color: rgba(57, 101, 167, 0.8);
+    background-color: rgba(187, 48, 71, 0.8);
     width: 100%;
     text-align: center;
     margin: 0;
@@ -198,14 +200,23 @@ body{
 
 .itemBenefits {
     padding: 5px 10px;
-    background-color: rgba(57, 101, 167, 0.8);
+    background-color: rgba(187, 48, 71, 0.8);
     border-bottom-right-radius: inherit;
     border-bottom-left-radius: inherit;
     height: auto;
 }
 
+.item2color {
+    background-color: rgba(87, 187, 48, 0.637);
+
+}
+
 .itemBenefits img {
     height: 28px;
-    border-top-right-radius: inherit;
+    
+}
+
+.itemImg{
+border-top-right-radius: inherit;
         border-top-left-radius: inherit;
 }
